@@ -19,9 +19,9 @@ int _atoi(const char *str)
 		else if (*str >= '0' && *str <= '9')
 		{
 			result = result * 10 + (*str - '0');
-														
 		}
-		else															{
+		else
+		{
 			break;
 		}
 		str++;

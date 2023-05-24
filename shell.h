@@ -22,7 +22,7 @@ char *find_executable(char *command);
 void update_pwd_var(void);
 void handle_setenv(char **args);
 void handle_unsetenv(char **args);
-char* _getenv(const char* name);
+char *_getenv(const char *name);
 int _atoi(const char *str);
 
 #endif

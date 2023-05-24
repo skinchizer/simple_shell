@@ -27,7 +27,7 @@ void handle_cd(char **args)
 			return;
 		}
 		write(STDOUT_FILENO, dir, strlen(dir));
-		write(STDOUT_FILENO, "\n",1); 
+		write(STDOUT_FILENO, "\n", 1);
 	}
 	else
 	{
