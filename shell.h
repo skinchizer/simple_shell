@@ -20,7 +20,7 @@ void handle_exit(char **args, char *input);
 void error_handler(char **args, char **av, int count, char **env);
 char *find_executable(char *command);
 void update_pwd_var(void);
-char* _getenv(const char* name);
+char *_getenv(const char *name);
 int _atoi(char *s);
 void free_tokens(char **tokens);
 void _getenvir(char **env);
