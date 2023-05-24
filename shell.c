@@ -4,6 +4,7 @@
  * main - entry point
  * @argc: program arguments no.
  * @argv: array of arguments
+ * @env: environment
  * Return: always 0
  */
 

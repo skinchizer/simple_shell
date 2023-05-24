@@ -46,6 +46,7 @@ void handle_cd(char **args)
 /**
  * handle_exit - handles exit builtin
  * @args: cmd and args
+ * @input: command
  */
 
 void handle_exit(char **args, char *input)
@@ -100,10 +101,10 @@ void free_tokens(char **tokens)
 	free(tokens);
 }
 /**
- *  *_getenvir - gets the env variable.
- *   *@env: env variable
- *    *Return: 0
- *     */
+ * _getenvir - gets the env variable.
+ * @env: env variable
+ * Return: 0
+ */
 
 void _getenvir(char **env)
 {

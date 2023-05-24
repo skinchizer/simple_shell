@@ -3,6 +3,7 @@
 /**
  * execute_command - executes the command
  * @args: command and arguments
+ * @env: environment
  * Return: returns 1 on success
  */
 

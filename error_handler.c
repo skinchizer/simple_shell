@@ -4,6 +4,7 @@
  * @args: cmd and args
  * @av: list of program args
  * @count: command counter
+ * @env: environment
  */
 
 void error_handler(char **args, char **av, int count, char **env)
